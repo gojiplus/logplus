@@ -1,1 +1,3 @@
-# logplus
+## Logplus: Better Coding By Sending StackTrace and Logs for Code Refinement
+
+GenAI for coding involves two separate things: initial proposals and subsequent refinements. Refinements using the common generic GenAI interfaces is painful because the generic tools do not have access to the stacktrace, logs, and CI/CD results. It is also the case that GenAI is not conventionally built for refinement --- "keeping everything else the same but tweak this one malfunctioning portion" kind of a workflow but let's assume that the companies nicely handle it by lowering the temperature or by programmatically solving it. This leaves us with the missing data problem. Our hypothesis is that converging to the correct solution would be faster if we automatically send these data.  
